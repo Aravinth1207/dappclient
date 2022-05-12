@@ -14,7 +14,7 @@ export const Nav = () => {
         <>
             <Router>
                 <Routes>
-                    <Route path="/" element={<Entrance />} />
+                    <Route path="/dappclient" element={<Entrance />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/voting" element={<><BurgerNav /><Voting /></>} />
