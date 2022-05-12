@@ -1,12 +1,14 @@
 import './App.css';
 import { Nav } from './components/Nav';
-
+import { HashRouter } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <HashRouter>
+        <Nav />
+      </HashRouter>
     </div>
   );
 }
